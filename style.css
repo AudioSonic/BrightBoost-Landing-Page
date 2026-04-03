@@ -1,0 +1,53 @@
+body{
+    background-color: #032148;
+    padding: 0 30px;
+}
+
+header{
+    display: inline-flex;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.1);
+    padding: 10px 10px;
+}
+
+.logo{
+    display: inline-flex;
+    align-items: center;
+    font-family: Calibri, sans-serif;
+    font-size: 18pt;
+    color: white;
+}
+
+.menuItems{
+    margin: 0px 0px 0px 60px;
+    color: white;
+    font-family: Calibri, sans-serif;
+}
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    height: 32px;
+    padding: 0 15px;
+
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.btn.getStarted{
+    border-radius: 5px;
+    border: 1px solid #C37433;
+    font-style: bold;
+    background-color: #FD6F00;
+}
+
+#img{
+    width: 40px;
+    height: 30px;
+}
