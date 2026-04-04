@@ -9,6 +9,15 @@ main{
     background-color: white;
 }
 
+footer{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    margin: 5px;
+}
+
 .hero {
     background-image: url("images/background_stockphoto.png");
     background-size: cover;
@@ -62,11 +71,15 @@ main{
     transition: 0.2s;
 }
 
-.btn.getStarted{
+.btn.orange{
     border-radius: 5px;
     border: 1px solid #C37433;
     font-style: bold;
     background-color: #FD6F00;
+}
+
+.btn.orange.freeQuote{
+    margin: 15px;
 }
 
 .btn.learnMore{
@@ -78,9 +91,10 @@ main{
     background-color: rgba(128, 128, 128, 0.5);
 }
 
-.ourServices{
+.content{
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .ourServices.line{
