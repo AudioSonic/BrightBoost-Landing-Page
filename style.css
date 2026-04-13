@@ -210,22 +210,35 @@ h1{
     padding: 15px 0px 30px 0px;
 }
 
-/* Card Layout */
-.testimonial-card {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background: #f5f5f5;
-    padding: 20px;
-    border-radius: 12px;
-    max-width: 700px;
-    margin: auto;
-    background-color: white;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    text-align: left;
+.slideshow-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
 }
 
-/* Profilbild */
+.mySlides {
+  display: none;
+}
+
+.mySlides.active {
+  display: block;
+}
+
+/* Card Layout */
+.testimonial-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+/* Avatar */
 .avatar {
   width: 80px;
   height: 80px;
@@ -233,12 +246,11 @@ h1{
   object-fit: cover;
 }
 
-/* Textbereich */
+/* Text */
 .testimonial-content {
   flex: 1;
 }
 
-/* Zitat */
 .quote {
   font-size: 20px;
   font-weight: 500;
@@ -246,29 +258,18 @@ h1{
   margin: 0 0 10px 0;
 }
 
-/* Autor */
 .author {
   font-size: 14px;
   color: #777;
   margin: 0;
 }
 
-/* Pfeile optional anpassen */
-.prev, .next {
-  color: #333;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.1);
-}
-
-/* Container für Dots */
+/* Dots */
 .dots-container {
   text-align: center;
   margin-top: 15px;
 }
 
-/* Dots */
 .dot {
   cursor: pointer;
   height: 10px;
@@ -280,6 +281,17 @@ h1{
   transition: background-color 0.3s ease;
 }
 
-.active, .dot:hover {
+.dot.active,
+.dot:hover {
   background-color: #333;
+}
+
+/* Fade Animation */
+.fade {
+  animation: fade 0.6s ease-in-out;
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
 }
