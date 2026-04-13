@@ -18,3 +18,4 @@ Dieses Projekt ist eine responsive Landing Page, die als Beispiel für eine Mark
 - JavaScript
 
 ## Preview
+https://audiosonic.github.io/BrightBoost-Landing-Page/
