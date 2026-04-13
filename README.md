@@ -1,6 +1,8 @@
 # BrightBoost-Landing-Page
 Eine moderne Landing Page für eine fiktive Agentur, die sich auf Business Growth, Social Media Marketing und SEO Optimization spezialisiert.
-![if](https://github.com/user-attachments/assets/e3739154-6f91-450e-9e97-1ce56ef0d9af)
+![if](https://github.com/user-attachments/assets/e3739154-6f91-450e-9e97-1ce56ef0d9af)  
+<img width="699" height="910" alt="grafik" src="https://github.com/user-attachments/assets/dd032c0a-2cb6-485f-92fa-b33e1bf8921f" />
+
 
 ## Projektübersicht
 Dieses Projekt ist eine responsive Landing Page, die als Beispiel für eine Marketing-Agentur dient. Ziel ist es, eine professionelle Online-Präsenz zu simulieren, die Dienstleistungen im Bereich digitales Wachstum präsentiert und potenzielle Kunden anspricht.
